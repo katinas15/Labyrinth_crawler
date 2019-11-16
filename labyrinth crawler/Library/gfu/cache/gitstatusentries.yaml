@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-11-16T13:27:57.376+02:00
+  lastUpdatedAtString: 2019-11-16T13:28:16.560+02:00
   initializedAtString: 2019-11-16T12:12:56.981+02:00
   entries:
   - path: .gitignore
@@ -25,18 +25,6 @@ MonoBehaviour:
   - path: labyrinth crawler\.collabignore
     fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\.collabignore
     projectPath: .collabignore
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\.vs\labyrinth crawler\v16\.suo
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\.vs\labyrinth crawler\v16\.suo
-    projectPath: .vs\labyrinth crawler\v16\.suo
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\.vs\labyrinth crawler\v16\Server\sqlite3\db.lock
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\.vs\labyrinth crawler\v16\Server\sqlite3\db.lock
-    projectPath: .vs\labyrinth crawler\v16\Server\sqlite3\db.lock
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
