@@ -11,14 +11,23 @@ public class Player : MonoBehaviour
 
     [SerializeField] Text bombText;
     [SerializeField] Text scrollText;
+    [SerializeField] Text coinText;
     [SerializeField] Tilemap tilemap;
-    [SerializeField] GameObject fire;
+    [SerializeField] Fire fire;
+    [SerializeField] float fireDelta = 0.5f;
+
+    float nextFire = 0.5f;
+    float myTime = 0.0f;
 
     int bombs = 0;
     int fireScrolls = 0;
+    int coins = 0;
+
     Rigidbody2D rigidBody;
     BoxCollider2D boxCollider;
     Animator animator;
+
+    
 
     void Start()
     {
@@ -31,15 +40,19 @@ public class Player : MonoBehaviour
 
     void FixedUpdate()
     {
+        myTime = myTime + Time.deltaTime;
         Move();
         Fire();
     }
 
     private void Fire()
     {
-        if (CrossPlatformInputManager.GetButton("Fire1"))
+        if (CrossPlatformInputManager.GetButton("Fire1") && myTime > nextFire)
         {
+            nextFire = myTime + fireDelta;
             UseFireScroll();
+            nextFire = nextFire - myTime;
+            myTime = 0.0F;
         }
     }
 
@@ -85,6 +98,7 @@ public class Player : MonoBehaviour
     {
         bombText.text = bombs.ToString();
         scrollText.text = fireScrolls.ToString();
+        coinText.text = coins.ToString();
     }
 
     public void AddScroll()
@@ -99,9 +113,38 @@ public class Player : MonoBehaviour
         UpdateUI();
     }
 
+    public void AddCoin()
+    {
+        coins++;
+        UpdateUI();
+    }
+
     public void UseFireScroll()
     {
-        Instantiate(fire, transform.position, transform.rotation);
+        var deltaY = CrossPlatformInputManager.GetAxisRaw("Vertical") * Time.deltaTime * movementSpeed;
+        Fire newFire = Instantiate(fire, new Vector2(transform.position.x, transform.position.y), transform.rotation);
+
+        var deltaX = CrossPlatformInputManager.GetAxisRaw("Horizontal") * Time.deltaTime * movementSpeed;
+        if(deltaX > 0f)
+        {
+            newFire.GetComponent<Fire>().SetDirection(1);
+        }
+        else if(deltaX <0f)
+        {
+            newFire.GetComponent<Fire>().SetDirection(3);
+        }
+        else if (deltaY > 0f)
+        {
+            newFire.GetComponent<Fire>().SetDirection(4);
+        }
+        else if (deltaY < 0f)
+        {
+            newFire.GetComponent<Fire>().SetDirection(2);
+        } else
+        {
+            newFire.GetComponent<Fire>().SetDirection(1);
+        }
+
     }
 
 }

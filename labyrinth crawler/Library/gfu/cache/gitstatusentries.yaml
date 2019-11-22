@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-11-22T21:11:16.418+02:00
-  initializedAtString: 2019-11-22T20:13:55.050+02:00
+  lastUpdatedAtString: 2019-11-22T23:50:39.490+02:00
+  initializedAtString: 2019-11-22T22:03:57.509+02:00
   entries:
   - path: labyrinth crawler\.vs\labyrinth crawler\v16\.suo
     fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\.vs\labyrinth crawler\v16\.suo
@@ -32,53 +32,53 @@ MonoBehaviour:
     fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\.vs\labyrinth crawler\v16\Server\sqlite3\storage.ide-shm
     projectPath: .vs\labyrinth crawler\v16\Server\sqlite3\storage.ide-shm
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: labyrinth crawler\.vs\labyrinth crawler\v16\Server\sqlite3\storage.ide-wal
     fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\.vs\labyrinth crawler\v16\Server\sqlite3\storage.ide-wal
     projectPath: .vs\labyrinth crawler\v16\Server\sqlite3\storage.ide-wal
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: labyrinth crawler\Assembly-CSharp.csproj
     fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assembly-CSharp.csproj
     projectPath: Assembly-CSharp.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: labyrinth crawler\Assets\LWRP.asset
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\LWRP.asset
-    projectPath: Assets\LWRP.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: labyrinth crawler\Assets\Prefabs.meta
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Prefabs.meta
-    projectPath: Assets\Prefabs.meta
+  - path: labyrinth crawler\Assets\Animation\Goblin.controller
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Animation\Goblin.controller
+    projectPath: Assets\Animation\Goblin.controller
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Prefabs\Bomb.prefab
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Prefabs\Bomb.prefab
-    projectPath: Assets\Prefabs\Bomb.prefab
+  - path: labyrinth crawler\Assets\Animation\Goblin.controller.meta
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Animation\Goblin.controller.meta
+    projectPath: Assets\Animation\Goblin.controller.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Prefabs\Bomb.prefab.meta
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Prefabs\Bomb.prefab.meta
-    projectPath: Assets\Prefabs\Bomb.prefab.meta
+  - path: labyrinth crawler\Assets\Animation\GoblinRun.anim
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Animation\GoblinRun.anim
+    projectPath: Assets\Animation\GoblinRun.anim
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Prefabs\Cameras.prefab
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Prefabs\Cameras.prefab
-    projectPath: Assets\Prefabs\Cameras.prefab
+  - path: labyrinth crawler\Assets\Animation\GoblinRun.anim.meta
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Animation\GoblinRun.anim.meta
+    projectPath: Assets\Animation\GoblinRun.anim.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Prefabs\Cameras.prefab.meta
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Prefabs\Cameras.prefab.meta
-    projectPath: Assets\Prefabs\Cameras.prefab.meta
+  - path: labyrinth crawler\Assets\Prefabs\Coin.prefab
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Prefabs\Coin.prefab
+    projectPath: Assets\Prefabs\Coin.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Assets\Prefabs\Coin.prefab.meta
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Prefabs\Coin.prefab.meta
+    projectPath: Assets\Prefabs\Coin.prefab.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -86,11 +86,29 @@ MonoBehaviour:
     fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Prefabs\Fire Scroll.prefab
     projectPath: Assets\Prefabs\Fire Scroll.prefab
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: labyrinth crawler\Assets\Prefabs\Fire.prefab
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Prefabs\Fire.prefab
+    projectPath: Assets\Prefabs\Fire.prefab
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Prefabs\Fire Scroll.prefab.meta
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Prefabs\Fire Scroll.prefab.meta
-    projectPath: Assets\Prefabs\Fire Scroll.prefab.meta
+  - path: labyrinth crawler\Assets\Prefabs\Fire.prefab.meta
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Prefabs\Fire.prefab.meta
+    projectPath: Assets\Prefabs\Fire.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Assets\Prefabs\Goblin.prefab
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Prefabs\Goblin.prefab
+    projectPath: Assets\Prefabs\Goblin.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Assets\Prefabs\Goblin.prefab.meta
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Prefabs\Goblin.prefab.meta
+    projectPath: Assets\Prefabs\Goblin.prefab.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -98,59 +116,41 @@ MonoBehaviour:
     fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Prefabs\Player.prefab
     projectPath: Assets\Prefabs\Player.prefab
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Prefabs\Player.prefab.meta
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Prefabs\Player.prefab.meta
-    projectPath: Assets\Prefabs\Player.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Scenes\SampleScene.meta
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Scenes\SampleScene.meta
-    projectPath: Assets\Scenes\SampleScene.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Scenes\SampleScene.unity
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Scenes\SampleScene.unity
-    projectPath: Assets\Scenes\SampleScene.unity
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: labyrinth crawler\Assets\Scenes\SampleScene\LightingData.asset
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Scenes\SampleScene\LightingData.asset
-    projectPath: Assets\Scenes\SampleScene\LightingData.asset
+  - path: labyrinth crawler\Assets\Scripts\Coin.cs
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Scripts\Coin.cs
+    projectPath: Assets\Scripts\Coin.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Scenes\SampleScene\LightingData.asset.meta
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Scenes\SampleScene\LightingData.asset.meta
-    projectPath: Assets\Scenes\SampleScene\LightingData.asset.meta
+  - path: labyrinth crawler\Assets\Scripts\Coin.cs.meta
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Scripts\Coin.cs.meta
+    projectPath: Assets\Scripts\Coin.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Scripts\Bomb.cs
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Scripts\Bomb.cs
-    projectPath: Assets\Scripts\Bomb.cs
+  - path: labyrinth crawler\Assets\Scripts\Fire.cs
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Scripts\Fire.cs
+    projectPath: Assets\Scripts\Fire.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Scripts\Bomb.cs.meta
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Scripts\Bomb.cs.meta
-    projectPath: Assets\Scripts\Bomb.cs.meta
+  - path: labyrinth crawler\Assets\Scripts\Fire.cs.meta
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Scripts\Fire.cs.meta
+    projectPath: Assets\Scripts\Fire.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Scripts\FireScroll.cs
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Scripts\FireScroll.cs
-    projectPath: Assets\Scripts\FireScroll.cs
+  - path: labyrinth crawler\Assets\Scripts\Goblin.cs
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Scripts\Goblin.cs
+    projectPath: Assets\Scripts\Goblin.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Scripts\FireScroll.cs.meta
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Scripts\FireScroll.cs.meta
-    projectPath: Assets\Scripts\FireScroll.cs.meta
+  - path: labyrinth crawler\Assets\Scripts\Goblin.cs.meta
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Scripts\Goblin.cs.meta
+    projectPath: Assets\Scripts\Goblin.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -160,76 +160,57 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: labyrinth crawler\Assets\Sprites\bomb.png
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Sprites\bomb.png
-    projectPath: Assets\Sprites\bomb.png
+  - path: labyrinth crawler\Assets\Sprites\coin.png
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Sprites\coin.png
+    projectPath: Assets\Sprites\coin.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Sprites\bomb.png.meta
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Sprites\bomb.png.meta
-    projectPath: Assets\Sprites\bomb.png.meta
+  - path: labyrinth crawler\Assets\Sprites\coin.png.meta
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Sprites\coin.png.meta
+    projectPath: Assets\Sprites\coin.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Sprites\dagger.png
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Sprites\dagger.png
-    projectPath: Assets\Sprites\dagger.png
+  - path: labyrinth crawler\Assets\Sprites\coin.pyxel
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Sprites\coin.pyxel
+    projectPath: Assets\Sprites\coin.pyxel
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Sprites\dagger.png.meta
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Sprites\dagger.png.meta
-    projectPath: Assets\Sprites\dagger.png.meta
+  - path: labyrinth crawler\Assets\Sprites\coin.pyxel.meta
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Sprites\coin.pyxel.meta
+    projectPath: Assets\Sprites\coin.pyxel.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Sprites\goblin.png
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Sprites\goblin.png
-    projectPath: Assets\Sprites\goblin.png
+  - path: labyrinth crawler\Assets\Sprites\fire.png
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Sprites\fire.png
+    projectPath: Assets\Sprites\fire.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Assets\Sprites\fire.png.meta
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Sprites\fire.png.meta
+    projectPath: Assets\Sprites\fire.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Assets\Sprites\fire.pyxel
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Sprites\fire.pyxel
+    projectPath: Assets\Sprites\fire.pyxel
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Assets\Sprites\fire.pyxel.meta
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Sprites\fire.pyxel.meta
+    projectPath: Assets\Sprites\fire.pyxel.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: labyrinth crawler\Assets\Sprites\goblin.png.meta
     fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Sprites\goblin.png.meta
     projectPath: Assets\Sprites\goblin.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Sprites\New Sprite Atlas.spriteatlas
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Sprites\New Sprite
-      Atlas.spriteatlas
-    projectPath: Assets\Sprites\New Sprite Atlas.spriteatlas
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: labyrinth crawler\Assets\Sprites\scroll.png
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Sprites\scroll.png
-    projectPath: Assets\Sprites\scroll.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Sprites\scroll.png.meta
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Sprites\scroll.png.meta
-    projectPath: Assets\Sprites\scroll.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Sprites\Tiles\bomb.asset
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Sprites\Tiles\bomb.asset
-    projectPath: Assets\Sprites\Tiles\bomb.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Sprites\Tiles\bomb.asset.meta
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Sprites\Tiles\bomb.asset.meta
-    projectPath: Assets\Sprites\Tiles\bomb.asset.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\Assets\Sprites\Tiles\Default.prefab
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Assets\Sprites\Tiles\Default.prefab
-    projectPath: Assets\Sprites\Tiles\Default.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -242,12 +223,6 @@ MonoBehaviour:
   - path: labyrinth crawler\Library\Collab\CollabSnapshot_786276b9-3e8e-4173-8e6d-ec2cd4fd77e3.txt
     fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\Collab\CollabSnapshot_786276b9-3e8e-4173-8e6d-ec2cd4fd77e3.txt
     projectPath: Library\Collab\CollabSnapshot_786276b9-3e8e-4173-8e6d-ec2cd4fd77e3.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: labyrinth crawler\Library\CurrentLayout-default.dwlt
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\CurrentLayout-default.dwlt
-    projectPath: Library\CurrentLayout-default.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -293,27 +268,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: labyrinth crawler\Library\GridBrush\UnityEditor.Tilemaps.GridBrush.asset
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\GridBrush\UnityEditor.Tilemaps.GridBrush.asset
-    projectPath: Library\GridBrush\UnityEditor.Tilemaps.GridBrush.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: labyrinth crawler\Library\InspectorExpandedItems.asset
     fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\InspectorExpandedItems.asset
     projectPath: Library\InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: labyrinth crawler\Library\metadata\07\07e4817ed2c0d684fba674e6f07dc8ad
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\07\07e4817ed2c0d684fba674e6f07dc8ad
-    projectPath: Library\metadata\07\07e4817ed2c0d684fba674e6f07dc8ad
+  - path: labyrinth crawler\Library\metadata\02\024f8f7a67e37c946b4b328abab9af44
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\02\024f8f7a67e37c946b4b328abab9af44
+    projectPath: Library\metadata\02\024f8f7a67e37c946b4b328abab9af44
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\07\07e4817ed2c0d684fba674e6f07dc8ad.info
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\07\07e4817ed2c0d684fba674e6f07dc8ad.info
-    projectPath: Library\metadata\07\07e4817ed2c0d684fba674e6f07dc8ad.info
+  - path: labyrinth crawler\Library\metadata\02\024f8f7a67e37c946b4b328abab9af44.info
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\02\024f8f7a67e37c946b4b328abab9af44.info
+    projectPath: Library\metadata\02\024f8f7a67e37c946b4b328abab9af44.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Library\metadata\18\18c679154ee247648b213401e96648a8
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\18\18c679154ee247648b213401e96648a8
+    projectPath: Library\metadata\18\18c679154ee247648b213401e96648a8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Library\metadata\18\18c679154ee247648b213401e96648a8.info
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\18\18c679154ee247648b213401e96648a8.info
+    projectPath: Library\metadata\18\18c679154ee247648b213401e96648a8.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -321,47 +302,59 @@ MonoBehaviour:
     fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\19\190e2d6d2eb7c4545a31067e3a0c545d
     projectPath: Library\metadata\19\190e2d6d2eb7c4545a31067e3a0c545d
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: labyrinth crawler\Library\metadata\19\190e2d6d2eb7c4545a31067e3a0c545d.info
     fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\19\190e2d6d2eb7c4545a31067e3a0c545d.info
     projectPath: Library\metadata\19\190e2d6d2eb7c4545a31067e3a0c545d.info
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: labyrinth crawler\Library\metadata\19\195d0d419817e6048893d2a628095b10
     fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\19\195d0d419817e6048893d2a628095b10
     projectPath: Library\metadata\19\195d0d419817e6048893d2a628095b10
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: labyrinth crawler\Library\metadata\19\195d0d419817e6048893d2a628095b10.info
     fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\19\195d0d419817e6048893d2a628095b10.info
     projectPath: Library\metadata\19\195d0d419817e6048893d2a628095b10.info
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\39\39fee1c4e408c224eb75164d52d684f4
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\39\39fee1c4e408c224eb75164d52d684f4
-    projectPath: Library\metadata\39\39fee1c4e408c224eb75164d52d684f4
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: labyrinth crawler\Library\metadata\3f\3fe2acebd61db244f9db888ca1d7bd94
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\3f\3fe2acebd61db244f9db888ca1d7bd94
+    projectPath: Library\metadata\3f\3fe2acebd61db244f9db888ca1d7bd94
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\39\39fee1c4e408c224eb75164d52d684f4.info
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\39\39fee1c4e408c224eb75164d52d684f4.info
-    projectPath: Library\metadata\39\39fee1c4e408c224eb75164d52d684f4.info
+  - path: labyrinth crawler\Library\metadata\3f\3fe2acebd61db244f9db888ca1d7bd94.info
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\3f\3fe2acebd61db244f9db888ca1d7bd94.info
+    projectPath: Library\metadata\3f\3fe2acebd61db244f9db888ca1d7bd94.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\3a\3a707e961a7834141b8057dc000ca150
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\3a\3a707e961a7834141b8057dc000ca150
-    projectPath: Library\metadata\3a\3a707e961a7834141b8057dc000ca150
+  - path: labyrinth crawler\Library\metadata\4a\4ae64bc9a8ca0dc4c8f046edf7935f28
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\4a\4ae64bc9a8ca0dc4c8f046edf7935f28
+    projectPath: Library\metadata\4a\4ae64bc9a8ca0dc4c8f046edf7935f28
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\3a\3a707e961a7834141b8057dc000ca150.info
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\3a\3a707e961a7834141b8057dc000ca150.info
-    projectPath: Library\metadata\3a\3a707e961a7834141b8057dc000ca150.info
+  - path: labyrinth crawler\Library\metadata\4a\4ae64bc9a8ca0dc4c8f046edf7935f28.info
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\4a\4ae64bc9a8ca0dc4c8f046edf7935f28.info
+    projectPath: Library\metadata\4a\4ae64bc9a8ca0dc4c8f046edf7935f28.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Library\metadata\4b\4b5fc6971591b6e4bbfba5f412d1deb1
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\4b\4b5fc6971591b6e4bbfba5f412d1deb1
+    projectPath: Library\metadata\4b\4b5fc6971591b6e4bbfba5f412d1deb1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Library\metadata\4b\4b5fc6971591b6e4bbfba5f412d1deb1.info
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\4b\4b5fc6971591b6e4bbfba5f412d1deb1.info
+    projectPath: Library\metadata\4b\4b5fc6971591b6e4bbfba5f412d1deb1.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -369,134 +362,98 @@ MonoBehaviour:
     fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\53\5338ba60261e17c45a635d1797b71775
     projectPath: Library\metadata\53\5338ba60261e17c45a635d1797b71775
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\53\5338ba60261e17c45a635d1797b71775.info
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\53\5338ba60261e17c45a635d1797b71775.info
-    projectPath: Library\metadata\53\5338ba60261e17c45a635d1797b71775.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\62\62e7aad282837484bbb8d2cbb3bf7727
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\62\62e7aad282837484bbb8d2cbb3bf7727
-    projectPath: Library\metadata\62\62e7aad282837484bbb8d2cbb3bf7727
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\62\62e7aad282837484bbb8d2cbb3bf7727.info
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\62\62e7aad282837484bbb8d2cbb3bf7727.info
-    projectPath: Library\metadata\62\62e7aad282837484bbb8d2cbb3bf7727.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\77\77090a0355466a746a8a8e872083d9df
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\77\77090a0355466a746a8a8e872083d9df
-    projectPath: Library\metadata\77\77090a0355466a746a8a8e872083d9df
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\77\77090a0355466a746a8a8e872083d9df.info
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\77\77090a0355466a746a8a8e872083d9df.info
-    projectPath: Library\metadata\77\77090a0355466a746a8a8e872083d9df.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\90\9086b531dfeac904a965fb964e0ceca8
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\90\9086b531dfeac904a965fb964e0ceca8
-    projectPath: Library\metadata\90\9086b531dfeac904a965fb964e0ceca8
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: labyrinth crawler\Library\metadata\90\9086b531dfeac904a965fb964e0ceca8.info
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\90\9086b531dfeac904a965fb964e0ceca8.info
-    projectPath: Library\metadata\90\9086b531dfeac904a965fb964e0ceca8.info
+  - path: labyrinth crawler\Library\metadata\5f\5fd2bdd1429a41d4fbc76b62a5f13309
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\5f\5fd2bdd1429a41d4fbc76b62a5f13309
+    projectPath: Library\metadata\5f\5fd2bdd1429a41d4fbc76b62a5f13309
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Library\metadata\5f\5fd2bdd1429a41d4fbc76b62a5f13309.info
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\5f\5fd2bdd1429a41d4fbc76b62a5f13309.info
+    projectPath: Library\metadata\5f\5fd2bdd1429a41d4fbc76b62a5f13309.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Library\metadata\6d\6db1e880483d0ff4f89549e64e667910
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\6d\6db1e880483d0ff4f89549e64e667910
+    projectPath: Library\metadata\6d\6db1e880483d0ff4f89549e64e667910
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Library\metadata\6d\6db1e880483d0ff4f89549e64e667910.info
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\6d\6db1e880483d0ff4f89549e64e667910.info
+    projectPath: Library\metadata\6d\6db1e880483d0ff4f89549e64e667910.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Library\metadata\85\851e559f41959cc47b6f943eb4bc4623
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\85\851e559f41959cc47b6f943eb4bc4623
+    projectPath: Library\metadata\85\851e559f41959cc47b6f943eb4bc4623
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Library\metadata\85\851e559f41959cc47b6f943eb4bc4623.info
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\85\851e559f41959cc47b6f943eb4bc4623.info
+    projectPath: Library\metadata\85\851e559f41959cc47b6f943eb4bc4623.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Library\metadata\8d\8ddbe42fdd3ba0146b67c0072d5d06f3
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\8d\8ddbe42fdd3ba0146b67c0072d5d06f3
+    projectPath: Library\metadata\8d\8ddbe42fdd3ba0146b67c0072d5d06f3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Library\metadata\8d\8ddbe42fdd3ba0146b67c0072d5d06f3.info
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\8d\8ddbe42fdd3ba0146b67c0072d5d06f3.info
+    projectPath: Library\metadata\8d\8ddbe42fdd3ba0146b67c0072d5d06f3.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: labyrinth crawler\Library\metadata\90\90fe73f5adc724a4694d5978ecd66696
     fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\90\90fe73f5adc724a4694d5978ecd66696
     projectPath: Library\metadata\90\90fe73f5adc724a4694d5978ecd66696
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: labyrinth crawler\Library\metadata\ab\ab61d843c528de64cb48b223cb154e3a
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\ab\ab61d843c528de64cb48b223cb154e3a
-    projectPath: Library\metadata\ab\ab61d843c528de64cb48b223cb154e3a
+  - path: labyrinth crawler\Library\metadata\d0\d0823f05ac4ba42409d88ebdd0b09185
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\d0\d0823f05ac4ba42409d88ebdd0b09185
+    projectPath: Library\metadata\d0\d0823f05ac4ba42409d88ebdd0b09185
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\ab\ab61d843c528de64cb48b223cb154e3a.info
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\ab\ab61d843c528de64cb48b223cb154e3a.info
-    projectPath: Library\metadata\ab\ab61d843c528de64cb48b223cb154e3a.info
+  - path: labyrinth crawler\Library\metadata\d0\d0823f05ac4ba42409d88ebdd0b09185.info
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\d0\d0823f05ac4ba42409d88ebdd0b09185.info
+    projectPath: Library\metadata\d0\d0823f05ac4ba42409d88ebdd0b09185.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\b5\b52dd9900c7bb0e45ae895414978a670
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\b5\b52dd9900c7bb0e45ae895414978a670
-    projectPath: Library\metadata\b5\b52dd9900c7bb0e45ae895414978a670
+  - path: labyrinth crawler\Library\metadata\e3\e3ee1b02b4e8bf44cbc400c78cd9a0f1
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\e3\e3ee1b02b4e8bf44cbc400c78cd9a0f1
+    projectPath: Library\metadata\e3\e3ee1b02b4e8bf44cbc400c78cd9a0f1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\b5\b52dd9900c7bb0e45ae895414978a670.info
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\b5\b52dd9900c7bb0e45ae895414978a670.info
-    projectPath: Library\metadata\b5\b52dd9900c7bb0e45ae895414978a670.info
+  - path: labyrinth crawler\Library\metadata\e3\e3ee1b02b4e8bf44cbc400c78cd9a0f1.info
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\e3\e3ee1b02b4e8bf44cbc400c78cd9a0f1.info
+    projectPath: Library\metadata\e3\e3ee1b02b4e8bf44cbc400c78cd9a0f1.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\be\be0c1392918eea04f847eb626f85c68b
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\be\be0c1392918eea04f847eb626f85c68b
-    projectPath: Library\metadata\be\be0c1392918eea04f847eb626f85c68b
+  - path: labyrinth crawler\Library\metadata\e6\e66303ca6442c3546a73c6db901d058d
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\e6\e66303ca6442c3546a73c6db901d058d
+    projectPath: Library\metadata\e6\e66303ca6442c3546a73c6db901d058d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\be\be0c1392918eea04f847eb626f85c68b.info
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\be\be0c1392918eea04f847eb626f85c68b.info
-    projectPath: Library\metadata\be\be0c1392918eea04f847eb626f85c68b.info
+  - path: labyrinth crawler\Library\metadata\e6\e66303ca6442c3546a73c6db901d058d.info
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\e6\e66303ca6442c3546a73c6db901d058d.info
+    projectPath: Library\metadata\e6\e66303ca6442c3546a73c6db901d058d.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\d1\d1703f9c17a83a64eae7f3e2c61abb87
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\d1\d1703f9c17a83a64eae7f3e2c61abb87
-    projectPath: Library\metadata\d1\d1703f9c17a83a64eae7f3e2c61abb87
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\d1\d1703f9c17a83a64eae7f3e2c61abb87.info
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\d1\d1703f9c17a83a64eae7f3e2c61abb87.info
-    projectPath: Library\metadata\d1\d1703f9c17a83a64eae7f3e2c61abb87.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\db\db14e79b34b88344a95d79db348577f2
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\db\db14e79b34b88344a95d79db348577f2
-    projectPath: Library\metadata\db\db14e79b34b88344a95d79db348577f2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\db\db14e79b34b88344a95d79db348577f2.info
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\db\db14e79b34b88344a95d79db348577f2.info
-    projectPath: Library\metadata\db\db14e79b34b88344a95d79db348577f2.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\e1\e1daa38c7c7d6d447b4f2740a8e3f3a8
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\e1\e1daa38c7c7d6d447b4f2740a8e3f3a8
-    projectPath: Library\metadata\e1\e1daa38c7c7d6d447b4f2740a8e3f3a8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\Library\metadata\e1\e1daa38c7c7d6d447b4f2740a8e3f3a8.info
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\metadata\e1\e1daa38c7c7d6d447b4f2740a8e3f3a8.info
-    projectPath: Library\metadata\e1\e1daa38c7c7d6d447b4f2740a8e3f3a8.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler\Library\SceneVisibilityState.asset
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\SceneVisibilityState.asset
-    projectPath: Library\SceneVisibilityState.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: labyrinth crawler\Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
@@ -515,12 +472,18 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: labyrinth crawler\Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+  - path: labyrinth crawler\Library\ShaderCache\1\1c014959408e045481bc4b3c0811b0bf.bin
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\ShaderCache\1\1c014959408e045481bc4b3c0811b0bf.bin
+    projectPath: Library\ShaderCache\1\1c014959408e045481bc4b3c0811b0bf.bin
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Library\ShaderCache\4\44ec77e2f086a61d135f75bf4ecbbfb2.bin
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\ShaderCache\4\44ec77e2f086a61d135f75bf4ecbbfb2.bin
+    projectPath: Library\ShaderCache\4\44ec77e2f086a61d135f75bf4ecbbfb2.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: labyrinth crawler\Library\ShaderCache\EditorEncounteredVariants
     fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\ShaderCache\EditorEncounteredVariants
     projectPath: Library\ShaderCache\EditorEncounteredVariants
@@ -533,24 +496,24 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: labyrinth crawler\Library\shadercompiler-UnityShaderCompiler.exe1.log
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\shadercompiler-UnityShaderCompiler.exe1.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+  - path: labyrinth crawler\Library\StateCache\Hierarchy\a81e34-d0823f05ac4ba42409.json
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\StateCache\Hierarchy\a81e34-d0823f05ac4ba42409.json
+    projectPath: Library\StateCache\Hierarchy\a81e34-d0823f05ac4ba42409.json
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: labyrinth crawler\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
   - path: labyrinth crawler\Library\StateCache\Hierarchy\a81e34-mainStage.json
     fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\StateCache\Hierarchy\a81e34-mainStage.json
     projectPath: Library\StateCache\Hierarchy\a81e34-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: labyrinth crawler\Library\StateCache\SceneView\c30c1b-d0823f05ac4ba42409.json
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\StateCache\SceneView\c30c1b-d0823f05ac4ba42409.json
+    projectPath: Library\StateCache\SceneView\c30c1b-d0823f05ac4ba42409.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: labyrinth crawler\Library\StateCache\SceneView\c30c1b-mainStage.json
     fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Library\StateCache\SceneView\c30c1b-mainStage.json
     projectPath: Library\StateCache\SceneView\c30c1b-mainStage.json
@@ -560,12 +523,6 @@ MonoBehaviour:
   - path: labyrinth crawler\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
     fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
     projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: labyrinth crawler\ProjectSettings\InputManager.asset
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\ProjectSettings\InputManager.asset
-    projectPath: ProjectSettings\InputManager.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -587,249 +544,513 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-08f406aed7139844586b17adbffbdc62
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-08f406aed7139844586b17adbffbdc62
-    projectPath: Temp\UnityTempFile-08f406aed7139844586b17adbffbdc62
+  - path: labyrinth crawler\Temp\UnityTempFile-01eae5b1cd9b6e74ebad3910815ca48b
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-01eae5b1cd9b6e74ebad3910815ca48b
+    projectPath: Temp\UnityTempFile-01eae5b1cd9b6e74ebad3910815ca48b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-0f0f5b45830aeab478c8c5cf18a13e4d
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-0f0f5b45830aeab478c8c5cf18a13e4d
-    projectPath: Temp\UnityTempFile-0f0f5b45830aeab478c8c5cf18a13e4d
+  - path: labyrinth crawler\Temp\UnityTempFile-075adfdbd59cf0f43bb455971be9e1c7
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-075adfdbd59cf0f43bb455971be9e1c7
+    projectPath: Temp\UnityTempFile-075adfdbd59cf0f43bb455971be9e1c7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-19c3dbcf8269ab24e87a2a6239802ceb
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-19c3dbcf8269ab24e87a2a6239802ceb
-    projectPath: Temp\UnityTempFile-19c3dbcf8269ab24e87a2a6239802ceb
+  - path: labyrinth crawler\Temp\UnityTempFile-09f971deacdc0d04081b9219d51eb269
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-09f971deacdc0d04081b9219d51eb269
+    projectPath: Temp\UnityTempFile-09f971deacdc0d04081b9219d51eb269
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-1c0f5ee74a223e046b69de9fd411cf46
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-1c0f5ee74a223e046b69de9fd411cf46
-    projectPath: Temp\UnityTempFile-1c0f5ee74a223e046b69de9fd411cf46
+  - path: labyrinth crawler\Temp\UnityTempFile-0ed7039ca97d2ec45a40130642ff0939
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-0ed7039ca97d2ec45a40130642ff0939
+    projectPath: Temp\UnityTempFile-0ed7039ca97d2ec45a40130642ff0939
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-1dab39561cfc9f1418cb225a0e703133
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-1dab39561cfc9f1418cb225a0e703133
-    projectPath: Temp\UnityTempFile-1dab39561cfc9f1418cb225a0e703133
+  - path: labyrinth crawler\Temp\UnityTempFile-0ee58a1ecc0aeed468e5e70e18199919
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-0ee58a1ecc0aeed468e5e70e18199919
+    projectPath: Temp\UnityTempFile-0ee58a1ecc0aeed468e5e70e18199919
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-1fd4cae819a3c6c41916630114015dd3
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-1fd4cae819a3c6c41916630114015dd3
-    projectPath: Temp\UnityTempFile-1fd4cae819a3c6c41916630114015dd3
+  - path: labyrinth crawler\Temp\UnityTempFile-14bc995e7b65b3042beb47a6810654e5
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-14bc995e7b65b3042beb47a6810654e5
+    projectPath: Temp\UnityTempFile-14bc995e7b65b3042beb47a6810654e5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-23a628a7a3d9c024989ecdd625baaa20
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-23a628a7a3d9c024989ecdd625baaa20
-    projectPath: Temp\UnityTempFile-23a628a7a3d9c024989ecdd625baaa20
+  - path: labyrinth crawler\Temp\UnityTempFile-1872816b1b64faf48a13e24c5fa0d1ea
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-1872816b1b64faf48a13e24c5fa0d1ea
+    projectPath: Temp\UnityTempFile-1872816b1b64faf48a13e24c5fa0d1ea
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-29bc6d31872f8764785022d4a83659ce
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-29bc6d31872f8764785022d4a83659ce
-    projectPath: Temp\UnityTempFile-29bc6d31872f8764785022d4a83659ce
+  - path: labyrinth crawler\Temp\UnityTempFile-19de265502dd5b645a22596d65ec20b0
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-19de265502dd5b645a22596d65ec20b0
+    projectPath: Temp\UnityTempFile-19de265502dd5b645a22596d65ec20b0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-2ea0418cc171f6e44b374dcd0f0808de
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-2ea0418cc171f6e44b374dcd0f0808de
-    projectPath: Temp\UnityTempFile-2ea0418cc171f6e44b374dcd0f0808de
+  - path: labyrinth crawler\Temp\UnityTempFile-24a4439235ae1df40a88cc83f2174eda
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-24a4439235ae1df40a88cc83f2174eda
+    projectPath: Temp\UnityTempFile-24a4439235ae1df40a88cc83f2174eda
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-2eab96edd1b590148a99366ef76516d6
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-2eab96edd1b590148a99366ef76516d6
-    projectPath: Temp\UnityTempFile-2eab96edd1b590148a99366ef76516d6
+  - path: labyrinth crawler\Temp\UnityTempFile-25f23fc9458ca9c479635b3bf720ca4a
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-25f23fc9458ca9c479635b3bf720ca4a
+    projectPath: Temp\UnityTempFile-25f23fc9458ca9c479635b3bf720ca4a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-2ff7951d1f66d8f42b1935f6e1f75d50
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-2ff7951d1f66d8f42b1935f6e1f75d50
-    projectPath: Temp\UnityTempFile-2ff7951d1f66d8f42b1935f6e1f75d50
+  - path: labyrinth crawler\Temp\UnityTempFile-26183a96078e9ae43b59d5a535f71cf0
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-26183a96078e9ae43b59d5a535f71cf0
+    projectPath: Temp\UnityTempFile-26183a96078e9ae43b59d5a535f71cf0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-3055796c8c92c9f479b0f7a822e10e91
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-3055796c8c92c9f479b0f7a822e10e91
-    projectPath: Temp\UnityTempFile-3055796c8c92c9f479b0f7a822e10e91
+  - path: labyrinth crawler\Temp\UnityTempFile-26f7e941cf8e1ef4884c4876f36adad2
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-26f7e941cf8e1ef4884c4876f36adad2
+    projectPath: Temp\UnityTempFile-26f7e941cf8e1ef4884c4876f36adad2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-3cf70b7f524e78f458d4e17b050c95ca
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-3cf70b7f524e78f458d4e17b050c95ca
-    projectPath: Temp\UnityTempFile-3cf70b7f524e78f458d4e17b050c95ca
+  - path: labyrinth crawler\Temp\UnityTempFile-29e2edce5fcc6824f8dc0fe3c102ef79
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-29e2edce5fcc6824f8dc0fe3c102ef79
+    projectPath: Temp\UnityTempFile-29e2edce5fcc6824f8dc0fe3c102ef79
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-3e2d1e63bdd3947438142947e474790e
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-3e2d1e63bdd3947438142947e474790e
-    projectPath: Temp\UnityTempFile-3e2d1e63bdd3947438142947e474790e
+  - path: labyrinth crawler\Temp\UnityTempFile-2a36cdcc81c0b8e469c8d1d246461c93
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-2a36cdcc81c0b8e469c8d1d246461c93
+    projectPath: Temp\UnityTempFile-2a36cdcc81c0b8e469c8d1d246461c93
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-4a71fdf70d28c28449189efdd2c44f65
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-4a71fdf70d28c28449189efdd2c44f65
-    projectPath: Temp\UnityTempFile-4a71fdf70d28c28449189efdd2c44f65
+  - path: labyrinth crawler\Temp\UnityTempFile-2e3be27aa31251e40b527a7df8751f03
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-2e3be27aa31251e40b527a7df8751f03
+    projectPath: Temp\UnityTempFile-2e3be27aa31251e40b527a7df8751f03
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-61410f4a81377d844a19abbbfe5b2e69
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-61410f4a81377d844a19abbbfe5b2e69
-    projectPath: Temp\UnityTempFile-61410f4a81377d844a19abbbfe5b2e69
+  - path: labyrinth crawler\Temp\UnityTempFile-2fbfcbf000d2a2f47a8589f280265458
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-2fbfcbf000d2a2f47a8589f280265458
+    projectPath: Temp\UnityTempFile-2fbfcbf000d2a2f47a8589f280265458
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-6552cb9b243954f4ba2794c9de60f624
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-6552cb9b243954f4ba2794c9de60f624
-    projectPath: Temp\UnityTempFile-6552cb9b243954f4ba2794c9de60f624
+  - path: labyrinth crawler\Temp\UnityTempFile-30eaf7f9353f7274087635dae9bb7108
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-30eaf7f9353f7274087635dae9bb7108
+    projectPath: Temp\UnityTempFile-30eaf7f9353f7274087635dae9bb7108
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-689a1702ec2bf7244b120f3a93504326
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-689a1702ec2bf7244b120f3a93504326
-    projectPath: Temp\UnityTempFile-689a1702ec2bf7244b120f3a93504326
+  - path: labyrinth crawler\Temp\UnityTempFile-3b4908ac72dfbcd43954f92853a73ed8
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-3b4908ac72dfbcd43954f92853a73ed8
+    projectPath: Temp\UnityTempFile-3b4908ac72dfbcd43954f92853a73ed8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-7216cc8ba0a2db84684579796cbb38be
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-7216cc8ba0a2db84684579796cbb38be
-    projectPath: Temp\UnityTempFile-7216cc8ba0a2db84684579796cbb38be
+  - path: labyrinth crawler\Temp\UnityTempFile-3cd31b91f718314469ffaeb3a6080b46
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-3cd31b91f718314469ffaeb3a6080b46
+    projectPath: Temp\UnityTempFile-3cd31b91f718314469ffaeb3a6080b46
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-77f7633a76b553c4ea5f508ebae320f3
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-77f7633a76b553c4ea5f508ebae320f3
-    projectPath: Temp\UnityTempFile-77f7633a76b553c4ea5f508ebae320f3
+  - path: labyrinth crawler\Temp\UnityTempFile-418d367ee44f2ed4b8e3e33b89d5b8f8
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-418d367ee44f2ed4b8e3e33b89d5b8f8
+    projectPath: Temp\UnityTempFile-418d367ee44f2ed4b8e3e33b89d5b8f8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-7adb77e7ce73cd94aa85759332550894
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-7adb77e7ce73cd94aa85759332550894
-    projectPath: Temp\UnityTempFile-7adb77e7ce73cd94aa85759332550894
+  - path: labyrinth crawler\Temp\UnityTempFile-4280c19dd15b6d646926a39fa7c1877d
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-4280c19dd15b6d646926a39fa7c1877d
+    projectPath: Temp\UnityTempFile-4280c19dd15b6d646926a39fa7c1877d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-800d1d269ae7e764093f152e98249f16
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-800d1d269ae7e764093f152e98249f16
-    projectPath: Temp\UnityTempFile-800d1d269ae7e764093f152e98249f16
+  - path: labyrinth crawler\Temp\UnityTempFile-43405f4312ad6e54882d2880114320de
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-43405f4312ad6e54882d2880114320de
+    projectPath: Temp\UnityTempFile-43405f4312ad6e54882d2880114320de
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-81c05e763a3a27b4d9d7ddb2ff89b73c
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-81c05e763a3a27b4d9d7ddb2ff89b73c
-    projectPath: Temp\UnityTempFile-81c05e763a3a27b4d9d7ddb2ff89b73c
+  - path: labyrinth crawler\Temp\UnityTempFile-443c9975623f6014ca116361043cb3fd
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-443c9975623f6014ca116361043cb3fd
+    projectPath: Temp\UnityTempFile-443c9975623f6014ca116361043cb3fd
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-857b112cb64d9ab469bea6a5f78d280b
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-857b112cb64d9ab469bea6a5f78d280b
-    projectPath: Temp\UnityTempFile-857b112cb64d9ab469bea6a5f78d280b
+  - path: labyrinth crawler\Temp\UnityTempFile-459d4071b90e885498871d74d0ea719b
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-459d4071b90e885498871d74d0ea719b
+    projectPath: Temp\UnityTempFile-459d4071b90e885498871d74d0ea719b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-959d8c400e4b026499a718247610e30f
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-959d8c400e4b026499a718247610e30f
-    projectPath: Temp\UnityTempFile-959d8c400e4b026499a718247610e30f
+  - path: labyrinth crawler\Temp\UnityTempFile-49b7e1ba8aa59c746b4f399cd8f4b097
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-49b7e1ba8aa59c746b4f399cd8f4b097
+    projectPath: Temp\UnityTempFile-49b7e1ba8aa59c746b4f399cd8f4b097
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-9712a3ee444130948981a4e8ce18ddca
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-9712a3ee444130948981a4e8ce18ddca
-    projectPath: Temp\UnityTempFile-9712a3ee444130948981a4e8ce18ddca
+  - path: labyrinth crawler\Temp\UnityTempFile-4ce7a696ad9c1a240ad9ad0d8b5642ee
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-4ce7a696ad9c1a240ad9ad0d8b5642ee
+    projectPath: Temp\UnityTempFile-4ce7a696ad9c1a240ad9ad0d8b5642ee
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-a2f157f922a7093439c9eff3bebdce3b
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-a2f157f922a7093439c9eff3bebdce3b
-    projectPath: Temp\UnityTempFile-a2f157f922a7093439c9eff3bebdce3b
+  - path: labyrinth crawler\Temp\UnityTempFile-4db9b5494024f144abce78cd5a94b86e
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-4db9b5494024f144abce78cd5a94b86e
+    projectPath: Temp\UnityTempFile-4db9b5494024f144abce78cd5a94b86e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-a815aa1bfcda6ad4486bbbc2fe053538
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-a815aa1bfcda6ad4486bbbc2fe053538
-    projectPath: Temp\UnityTempFile-a815aa1bfcda6ad4486bbbc2fe053538
+  - path: labyrinth crawler\Temp\UnityTempFile-4e5d19b3477333b43bf090b2d2b37387
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-4e5d19b3477333b43bf090b2d2b37387
+    projectPath: Temp\UnityTempFile-4e5d19b3477333b43bf090b2d2b37387
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-a96eb2b569d64a04681359e615ed8287
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-a96eb2b569d64a04681359e615ed8287
-    projectPath: Temp\UnityTempFile-a96eb2b569d64a04681359e615ed8287
+  - path: labyrinth crawler\Temp\UnityTempFile-53290714cac29874c8c902d375126959
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-53290714cac29874c8c902d375126959
+    projectPath: Temp\UnityTempFile-53290714cac29874c8c902d375126959
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-b72ae8ccd9aa10d448f896cda0e9011b
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-b72ae8ccd9aa10d448f896cda0e9011b
-    projectPath: Temp\UnityTempFile-b72ae8ccd9aa10d448f896cda0e9011b
+  - path: labyrinth crawler\Temp\UnityTempFile-54a1c4f2f2f904e4d9909cf361336b0c
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-54a1c4f2f2f904e4d9909cf361336b0c
+    projectPath: Temp\UnityTempFile-54a1c4f2f2f904e4d9909cf361336b0c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-bed2236c8a211cf42a6c26d6a2e001b4
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-bed2236c8a211cf42a6c26d6a2e001b4
-    projectPath: Temp\UnityTempFile-bed2236c8a211cf42a6c26d6a2e001b4
+  - path: labyrinth crawler\Temp\UnityTempFile-57cf43778c8a28949997b583d126f418
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-57cf43778c8a28949997b583d126f418
+    projectPath: Temp\UnityTempFile-57cf43778c8a28949997b583d126f418
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-c1fa2bfd0c6bae548952bbecd131957d
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-c1fa2bfd0c6bae548952bbecd131957d
-    projectPath: Temp\UnityTempFile-c1fa2bfd0c6bae548952bbecd131957d
+  - path: labyrinth crawler\Temp\UnityTempFile-57edf0332fc7fe240a34a38b3270ca69
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-57edf0332fc7fe240a34a38b3270ca69
+    projectPath: Temp\UnityTempFile-57edf0332fc7fe240a34a38b3270ca69
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-c4167006672df7541baf44fe3debe112
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-c4167006672df7541baf44fe3debe112
-    projectPath: Temp\UnityTempFile-c4167006672df7541baf44fe3debe112
+  - path: labyrinth crawler\Temp\UnityTempFile-59e2fb47b53ed5d41894a4be5695de0b
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-59e2fb47b53ed5d41894a4be5695de0b
+    projectPath: Temp\UnityTempFile-59e2fb47b53ed5d41894a4be5695de0b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-d0d23e70459e71e4283d017319fcd697
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-d0d23e70459e71e4283d017319fcd697
-    projectPath: Temp\UnityTempFile-d0d23e70459e71e4283d017319fcd697
+  - path: labyrinth crawler\Temp\UnityTempFile-5d897cf948ef20449bb03a9d315bba2f
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-5d897cf948ef20449bb03a9d315bba2f
+    projectPath: Temp\UnityTempFile-5d897cf948ef20449bb03a9d315bba2f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-e644fb80afc58b548b85eafc809d4c6d
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-e644fb80afc58b548b85eafc809d4c6d
-    projectPath: Temp\UnityTempFile-e644fb80afc58b548b85eafc809d4c6d
+  - path: labyrinth crawler\Temp\UnityTempFile-6b5ddb660e02e924bb5499c986db075f
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-6b5ddb660e02e924bb5499c986db075f
+    projectPath: Temp\UnityTempFile-6b5ddb660e02e924bb5499c986db075f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-e73f8c49660861947b51017f5b81a9a3
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-e73f8c49660861947b51017f5b81a9a3
-    projectPath: Temp\UnityTempFile-e73f8c49660861947b51017f5b81a9a3
+  - path: labyrinth crawler\Temp\UnityTempFile-6bf01f4f203ab5f49a138291ddf553e5
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-6bf01f4f203ab5f49a138291ddf553e5
+    projectPath: Temp\UnityTempFile-6bf01f4f203ab5f49a138291ddf553e5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-eba0834b962c8b44698b908584dd3b55
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-eba0834b962c8b44698b908584dd3b55
-    projectPath: Temp\UnityTempFile-eba0834b962c8b44698b908584dd3b55
+  - path: labyrinth crawler\Temp\UnityTempFile-6d2fa2160b1991b43a9c44e03f77ef77
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-6d2fa2160b1991b43a9c44e03f77ef77
+    projectPath: Temp\UnityTempFile-6d2fa2160b1991b43a9c44e03f77ef77
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-ee4e64e5ccbc2d74aa146860cd0eee61
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-ee4e64e5ccbc2d74aa146860cd0eee61
-    projectPath: Temp\UnityTempFile-ee4e64e5ccbc2d74aa146860cd0eee61
+  - path: labyrinth crawler\Temp\UnityTempFile-6e4cacd52ae422e41b728f558e2a0db0
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-6e4cacd52ae422e41b728f558e2a0db0
+    projectPath: Temp\UnityTempFile-6e4cacd52ae422e41b728f558e2a0db0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-ef5505ff3e8ea684a9c3c3a7a66f85a9
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-ef5505ff3e8ea684a9c3c3a7a66f85a9
-    projectPath: Temp\UnityTempFile-ef5505ff3e8ea684a9c3c3a7a66f85a9
+  - path: labyrinth crawler\Temp\UnityTempFile-6ed13adc71f6fca48ac8f2a2a40989be
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-6ed13adc71f6fca48ac8f2a2a40989be
+    projectPath: Temp\UnityTempFile-6ed13adc71f6fca48ac8f2a2a40989be
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-f641c7ac793adf1428a97aadc049d8cf
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-f641c7ac793adf1428a97aadc049d8cf
-    projectPath: Temp\UnityTempFile-f641c7ac793adf1428a97aadc049d8cf
+  - path: labyrinth crawler\Temp\UnityTempFile-70f3eaac6e09a304994ef599f7a1416b
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-70f3eaac6e09a304994ef599f7a1416b
+    projectPath: Temp\UnityTempFile-70f3eaac6e09a304994ef599f7a1416b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler\Temp\UnityTempFile-fe3d3610390977e4a8e68cc5ee65b161
-    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-fe3d3610390977e4a8e68cc5ee65b161
-    projectPath: Temp\UnityTempFile-fe3d3610390977e4a8e68cc5ee65b161
+  - path: labyrinth crawler\Temp\UnityTempFile-727f8e601720d754f9d715e7002c548b
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-727f8e601720d754f9d715e7002c548b
+    projectPath: Temp\UnityTempFile-727f8e601720d754f9d715e7002c548b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-74bab2ca0e2078f408fb7e52d3c66687
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-74bab2ca0e2078f408fb7e52d3c66687
+    projectPath: Temp\UnityTempFile-74bab2ca0e2078f408fb7e52d3c66687
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-74dc4ea8dff6e4e4c8ceda53e249a8e9
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-74dc4ea8dff6e4e4c8ceda53e249a8e9
+    projectPath: Temp\UnityTempFile-74dc4ea8dff6e4e4c8ceda53e249a8e9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-74f8ff1177c498446ad33b1d9f0154d1
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-74f8ff1177c498446ad33b1d9f0154d1
+    projectPath: Temp\UnityTempFile-74f8ff1177c498446ad33b1d9f0154d1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-77d86a5c324e55e4f901f6cc18558fb6
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-77d86a5c324e55e4f901f6cc18558fb6
+    projectPath: Temp\UnityTempFile-77d86a5c324e55e4f901f6cc18558fb6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-81c44105917309447910ec0de9a4eac4
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-81c44105917309447910ec0de9a4eac4
+    projectPath: Temp\UnityTempFile-81c44105917309447910ec0de9a4eac4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-92771e79b2e59804ab35b2bd2deb0d4e
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-92771e79b2e59804ab35b2bd2deb0d4e
+    projectPath: Temp\UnityTempFile-92771e79b2e59804ab35b2bd2deb0d4e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-92f8ba23d92578a4a904997847d9a606
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-92f8ba23d92578a4a904997847d9a606
+    projectPath: Temp\UnityTempFile-92f8ba23d92578a4a904997847d9a606
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-959041e15c5d3b34fabe1499e153ded2
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-959041e15c5d3b34fabe1499e153ded2
+    projectPath: Temp\UnityTempFile-959041e15c5d3b34fabe1499e153ded2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-96741f974b9f48844ba07b6512eb0497
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-96741f974b9f48844ba07b6512eb0497
+    projectPath: Temp\UnityTempFile-96741f974b9f48844ba07b6512eb0497
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-97bc76396c8e14f4c847e2658eadf753
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-97bc76396c8e14f4c847e2658eadf753
+    projectPath: Temp\UnityTempFile-97bc76396c8e14f4c847e2658eadf753
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-987864338ff40474089d49c0dc1ce8a6
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-987864338ff40474089d49c0dc1ce8a6
+    projectPath: Temp\UnityTempFile-987864338ff40474089d49c0dc1ce8a6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-9eb5b22356da85446b53a3641d5f1165
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-9eb5b22356da85446b53a3641d5f1165
+    projectPath: Temp\UnityTempFile-9eb5b22356da85446b53a3641d5f1165
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-9fee644de83914d4a8811e3ef5c07a6a
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-9fee644de83914d4a8811e3ef5c07a6a
+    projectPath: Temp\UnityTempFile-9fee644de83914d4a8811e3ef5c07a6a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-a56669759a0898544b310d0b0c7e6034
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-a56669759a0898544b310d0b0c7e6034
+    projectPath: Temp\UnityTempFile-a56669759a0898544b310d0b0c7e6034
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-a75177378fe25934ca595c4a9fc42480
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-a75177378fe25934ca595c4a9fc42480
+    projectPath: Temp\UnityTempFile-a75177378fe25934ca595c4a9fc42480
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-aaa0eb6dcbaa1be4484d71177601f67e
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-aaa0eb6dcbaa1be4484d71177601f67e
+    projectPath: Temp\UnityTempFile-aaa0eb6dcbaa1be4484d71177601f67e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-b29d186fdcd44ab4f87081b5e3c2cc24
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-b29d186fdcd44ab4f87081b5e3c2cc24
+    projectPath: Temp\UnityTempFile-b29d186fdcd44ab4f87081b5e3c2cc24
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-b3375c1b4b6653e47ad81d06eda82a36
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-b3375c1b4b6653e47ad81d06eda82a36
+    projectPath: Temp\UnityTempFile-b3375c1b4b6653e47ad81d06eda82a36
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-b576682b999c0514495ee3ce0c96e4ad
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-b576682b999c0514495ee3ce0c96e4ad
+    projectPath: Temp\UnityTempFile-b576682b999c0514495ee3ce0c96e4ad
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-bd201fd8a31928949a42f55cdaa861da
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-bd201fd8a31928949a42f55cdaa861da
+    projectPath: Temp\UnityTempFile-bd201fd8a31928949a42f55cdaa861da
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-bd269f088d1b2c64ea13751e9f2bb420
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-bd269f088d1b2c64ea13751e9f2bb420
+    projectPath: Temp\UnityTempFile-bd269f088d1b2c64ea13751e9f2bb420
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-bea33961378b58f459afa3ea05f3b84d
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-bea33961378b58f459afa3ea05f3b84d
+    projectPath: Temp\UnityTempFile-bea33961378b58f459afa3ea05f3b84d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-bfc894a8851fa284a80bb55b3bbf0c9c
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-bfc894a8851fa284a80bb55b3bbf0c9c
+    projectPath: Temp\UnityTempFile-bfc894a8851fa284a80bb55b3bbf0c9c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-c40e996e771637f4d8c43b5cbe629d30
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-c40e996e771637f4d8c43b5cbe629d30
+    projectPath: Temp\UnityTempFile-c40e996e771637f4d8c43b5cbe629d30
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-c51fa42e13303b847915afaa62655850
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-c51fa42e13303b847915afaa62655850
+    projectPath: Temp\UnityTempFile-c51fa42e13303b847915afaa62655850
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-c9c0e39ca12248842901649d0f667531
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-c9c0e39ca12248842901649d0f667531
+    projectPath: Temp\UnityTempFile-c9c0e39ca12248842901649d0f667531
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-ca4a6f2de4a5efb48b5920d4c82d8f42
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-ca4a6f2de4a5efb48b5920d4c82d8f42
+    projectPath: Temp\UnityTempFile-ca4a6f2de4a5efb48b5920d4c82d8f42
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-cb38c6b6368c70741b782173b48ee9ea
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-cb38c6b6368c70741b782173b48ee9ea
+    projectPath: Temp\UnityTempFile-cb38c6b6368c70741b782173b48ee9ea
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-d3caffde47298644385f1a6e4739df0a
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-d3caffde47298644385f1a6e4739df0a
+    projectPath: Temp\UnityTempFile-d3caffde47298644385f1a6e4739df0a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-d6c095c23a669814f9ee03841f1eed54
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-d6c095c23a669814f9ee03841f1eed54
+    projectPath: Temp\UnityTempFile-d6c095c23a669814f9ee03841f1eed54
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-d9c2e4f6c165a7647a803b6784e6e38b
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-d9c2e4f6c165a7647a803b6784e6e38b
+    projectPath: Temp\UnityTempFile-d9c2e4f6c165a7647a803b6784e6e38b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-df8af519cd00df543a99e9c0d60fa799
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-df8af519cd00df543a99e9c0d60fa799
+    projectPath: Temp\UnityTempFile-df8af519cd00df543a99e9c0d60fa799
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-e2ce43b6fdf1ff145a0172aa19df1a34
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-e2ce43b6fdf1ff145a0172aa19df1a34
+    projectPath: Temp\UnityTempFile-e2ce43b6fdf1ff145a0172aa19df1a34
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-e3fbc0fbf85a3fb478ca55942fe92aa3
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-e3fbc0fbf85a3fb478ca55942fe92aa3
+    projectPath: Temp\UnityTempFile-e3fbc0fbf85a3fb478ca55942fe92aa3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-e65eda53c723ab34a963bf65c568e309
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-e65eda53c723ab34a963bf65c568e309
+    projectPath: Temp\UnityTempFile-e65eda53c723ab34a963bf65c568e309
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-e8e558a584f4e124688c8f6d5533fbec
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-e8e558a584f4e124688c8f6d5533fbec
+    projectPath: Temp\UnityTempFile-e8e558a584f4e124688c8f6d5533fbec
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-ebab6f7f8cd17ff459555f9251a65646
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-ebab6f7f8cd17ff459555f9251a65646
+    projectPath: Temp\UnityTempFile-ebab6f7f8cd17ff459555f9251a65646
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-edd63c3e9da4708439ccb950cbd411b1
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-edd63c3e9da4708439ccb950cbd411b1
+    projectPath: Temp\UnityTempFile-edd63c3e9da4708439ccb950cbd411b1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-ee180f93da4cfc94ea870f721936af86
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-ee180f93da4cfc94ea870f721936af86
+    projectPath: Temp\UnityTempFile-ee180f93da4cfc94ea870f721936af86
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-f33e40c4a8433ce4aba1f0612d659c5d
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-f33e40c4a8433ce4aba1f0612d659c5d
+    projectPath: Temp\UnityTempFile-f33e40c4a8433ce4aba1f0612d659c5d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-f42e0829ff36d1e4eb81a9cd8ca0fa28
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-f42e0829ff36d1e4eb81a9cd8ca0fa28
+    projectPath: Temp\UnityTempFile-f42e0829ff36d1e4eb81a9cd8ca0fa28
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-f91a0f011965fef4db7e04efc7705ca7
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-f91a0f011965fef4db7e04efc7705ca7
+    projectPath: Temp\UnityTempFile-f91a0f011965fef4db7e04efc7705ca7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-fd72113fa45184340b883405af99f590
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-fd72113fa45184340b883405af99f590
+    projectPath: Temp\UnityTempFile-fd72113fa45184340b883405af99f590
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler\Temp\UnityTempFile-fde414ae5147b6641ab3b70e29611204
+    fullPath: E:\Git\Labyrinth_crawler\labyrinth crawler\Temp\UnityTempFile-fde414ae5147b6641ab3b70e29611204
+    projectPath: Temp\UnityTempFile-fde414ae5147b6641ab3b70e29611204
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
