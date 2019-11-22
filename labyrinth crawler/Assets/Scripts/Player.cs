@@ -2,11 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.UI;
+using UnityEngine.Tilemaps;
 
 public class Player : MonoBehaviour
 {
     [SerializeField] float movementSpeed = 1f;
 
+    [SerializeField] Text bombText;
+    [SerializeField] Text scrollText;
+    [SerializeField] Tilemap tilemap;
+    [SerializeField] GameObject fire;
+
+    int bombs = 0;
+    int fireScrolls = 0;
     Rigidbody2D rigidBody;
     BoxCollider2D boxCollider;
     Animator animator;
@@ -16,11 +25,22 @@ public class Player : MonoBehaviour
         rigidBody = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
+        
+        UpdateUI();
     }
 
     void FixedUpdate()
     {
         Move();
+        Fire();
+    }
+
+    private void Fire()
+    {
+        if (CrossPlatformInputManager.GetButton("Fire1"))
+        {
+            UseFireScroll();
+        }
     }
 
     private void Move()
@@ -60,4 +80,28 @@ public class Player : MonoBehaviour
 
         transform.position = new Vector2(newXPos, newYPos);
     }
+
+    private void UpdateUI()
+    {
+        bombText.text = bombs.ToString();
+        scrollText.text = fireScrolls.ToString();
+    }
+
+    public void AddScroll()
+    {
+        fireScrolls++;
+        UpdateUI();
+    }
+
+    public void AddBomb()
+    {
+        bombs++;
+        UpdateUI();
+    }
+
+    public void UseFireScroll()
+    {
+        Instantiate(fire, transform.position, transform.rotation);
+    }
+
 }

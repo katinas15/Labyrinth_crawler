@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-11-16T21:14:15.595+02:00
-  initializedAtString: 2019-11-16T18:41:38.703+02:00
-  localBranches: []
+  lastUpdatedAtString: 2019-11-22T20:18:07.572+02:00
+  initializedAtString: 2019-11-22T20:13:55.238+02:00
+  localBranches:
+  - name: master
+    tracking: origin/master
   remoteBranches:
   - name: origin/HEAD
     tracking: '[None]'
@@ -30,8 +32,14 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - master
+    values:
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/katinas15/Labyrinth_crawler.git
+      trackingBranch: master
   remoteConfigBranches:
     keys:
     - origin
