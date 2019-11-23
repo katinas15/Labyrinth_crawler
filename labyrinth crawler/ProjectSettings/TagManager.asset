@@ -20,7 +20,7 @@ TagManager:
   - Collectables
   - Projectile
   - Enemy
-  - 
+  - Shop
   - 
   - 
   - 
@@ -55,6 +55,9 @@ TagManager:
     locked: 0
   - name: Enemy
     uniqueID: 3093852019
+    locked: 0
+  - name: Shop
+    uniqueID: 1318262965
     locked: 0
   - name: Player
     uniqueID: 3766729589

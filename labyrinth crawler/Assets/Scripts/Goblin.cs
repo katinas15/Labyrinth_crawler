@@ -44,19 +44,17 @@ public class Goblin : MonoBehaviour
             transform.position.y > startPosY + walkingDistance)
         {
             currentDirection = false;
-        } else if (transform.position.x <= startPosX ||
-            transform.position.y <= startPosY)
+        } else if (startPosX > transform.position.x ||
+            startPosY > transform.position.y)
         {
             currentDirection = true;
         }
 
-    }
-
-    public void OnCollisionEnter2D(Collision2D collision)
-    {
         if (boxCollider.IsTouchingLayers(LayerMask.GetMask("Projectile")))
         {
             Destroy(gameObject);
         }
+
     }
+
 }

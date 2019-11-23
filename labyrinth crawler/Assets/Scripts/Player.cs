@@ -15,8 +15,16 @@ public class Player : MonoBehaviour
     [SerializeField] Tilemap tilemap;
     [SerializeField] Fire fire;
     [SerializeField] float fireDelta = 0.5f;
+    [SerializeField] float bombDelta = 0.5f;
+
+    [SerializeField] float deathPush = 5f;
+
+    [SerializeField] GameObject gameScreen;
+    [SerializeField] GameObject deathScreen;
 
     float nextFire = 0.5f;
+    float nextBomb = 0.5f;
+
     float myTime = 0.0f;
 
     int bombs = 0;
@@ -28,7 +36,6 @@ public class Player : MonoBehaviour
     Animator animator;
 
     
-
     void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
@@ -43,6 +50,31 @@ public class Player : MonoBehaviour
         myTime = myTime + Time.deltaTime;
         Move();
         Fire();
+        Bomb();
+        Enemy();
+    }
+
+    private void Enemy()
+    {
+        if (boxCollider.IsTouchingLayers(LayerMask.GetMask("Enemy")))
+        {
+            boxCollider.enabled = false;
+            deathScreen.SetActive(true);
+            rigidBody.velocity = new Vector2(deathPush, deathPush);
+            gameScreen.SetActive(false);
+            
+        }
+    }
+
+    private void Bomb()
+    {
+        if (CrossPlatformInputManager.GetButton("Fire2") && myTime > nextBomb)
+        {
+            nextBomb = myTime + bombDelta;
+            UseBomb();
+            nextBomb = nextBomb - myTime;
+            myTime = 0.0F;
+        }
     }
 
     private void Fire()
@@ -121,30 +153,66 @@ public class Player : MonoBehaviour
 
     public void UseFireScroll()
     {
-        var deltaY = CrossPlatformInputManager.GetAxisRaw("Vertical") * Time.deltaTime * movementSpeed;
-        Fire newFire = Instantiate(fire, new Vector2(transform.position.x, transform.position.y), transform.rotation);
+        if(fireScrolls > 0)
+        {
+            var deltaY = CrossPlatformInputManager.GetAxisRaw("Vertical") * Time.deltaTime * movementSpeed;
+            Fire newFire = Instantiate(fire, new Vector2(transform.position.x, transform.position.y), transform.rotation);
 
-        var deltaX = CrossPlatformInputManager.GetAxisRaw("Horizontal") * Time.deltaTime * movementSpeed;
-        if(deltaX > 0f)
-        {
-            newFire.GetComponent<Fire>().SetDirection(1);
-        }
-        else if(deltaX <0f)
-        {
-            newFire.GetComponent<Fire>().SetDirection(3);
-        }
-        else if (deltaY > 0f)
-        {
-            newFire.GetComponent<Fire>().SetDirection(4);
-        }
-        else if (deltaY < 0f)
-        {
-            newFire.GetComponent<Fire>().SetDirection(2);
-        } else
-        {
-            newFire.GetComponent<Fire>().SetDirection(1);
-        }
+            var deltaX = CrossPlatformInputManager.GetAxisRaw("Horizontal") * Time.deltaTime * movementSpeed;
+            if (deltaX > 0f)
+            {
+                newFire.GetComponent<Fire>().SetDirection(1);
+            }
+            else if (deltaX < 0f)
+            {
+                newFire.GetComponent<Fire>().SetDirection(3);
+            }
+            else if (deltaY > 0f)
+            {
+                newFire.GetComponent<Fire>().SetDirection(4);
+            }
+            else if (deltaY < 0f)
+            {
+                newFire.GetComponent<Fire>().SetDirection(2);
+            }
+            else
+            {
+                newFire.GetComponent<Fire>().SetDirection(1);
+            }
 
+            fireScrolls--;
+            UpdateUI();
+        }
     }
 
+    public void UseBomb()
+    {
+        if (bombs > 0)
+        {
+            for (int i = -1; i <= 1; i++)
+            {
+                for (int j = -1; j <= 1; j++)
+                {
+                    int playerX = (int)transform.position.x;
+                    int playerY = (int)transform.position.y;
+                    tilemap.SetTile(new Vector3Int(playerX + j, playerY + i, 0), null);
+                }
+            }
+            bombs--;
+            UpdateUI();
+        }
+    }
+
+    public bool RemoveCoins(int price)
+    {
+        if(coins - price < 0)
+        {
+            return false;
+        }
+        else
+        {
+            coins -= price;
+            return true;
+        }
+    }
 }
