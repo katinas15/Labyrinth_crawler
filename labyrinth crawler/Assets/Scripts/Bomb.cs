@@ -6,7 +6,9 @@ public class Bomb : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        FindObjectOfType<Player>().AddBomb();
-        Destroy(gameObject);
+        if(other.gameObject.tag == "Player"){
+            FindObjectOfType<Player>().AddBomb();
+            Destroy(gameObject);
+        }
     }
 }

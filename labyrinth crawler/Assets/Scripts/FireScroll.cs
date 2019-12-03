@@ -6,7 +6,9 @@ public class FireScroll : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        FindObjectOfType<Player>().AddScroll();
-        Destroy(gameObject);
+        if(other.gameObject.tag == "Player"){
+            FindObjectOfType<Player>().AddScroll();
+            Destroy(gameObject);
+        }
     }
 }

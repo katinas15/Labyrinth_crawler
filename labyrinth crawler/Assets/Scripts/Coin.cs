@@ -6,7 +6,10 @@ public class Coin : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        FindObjectOfType<Player>().AddCoin();
-        Destroy(gameObject);
+        if(other.gameObject.tag == "Player"){
+            FindObjectOfType<Player>().AddCoin();
+            Destroy(gameObject);
+        }
+        
     }
 }
