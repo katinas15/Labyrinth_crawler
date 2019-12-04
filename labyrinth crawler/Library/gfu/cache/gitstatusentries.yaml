@@ -13,13 +13,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-12-04T16:54:39.792+02:00
-  initializedAtString: 2019-12-04T16:38:48.622+02:00
+  lastUpdatedAtString: 2019-12-04T17:00:34.287+02:00
+  initializedAtString: 2019-12-04T16:57:38.899+02:00
   entries:
-  - path: labyrinth crawler/Assets/Prefabs/Prefabs/Prefabs/Canvas.prefab
+  - path: labyrinth crawler/Assets/Prefabs/Game UI.prefab
     fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
-      crawler/Assets/Prefabs/Prefabs/Prefabs/Canvas.prefab
-    projectPath: Assets/Prefabs/Prefabs/Prefabs/Canvas.prefab
+      crawler/Assets/Prefabs/Game UI.prefab
+    projectPath: Assets/Prefabs/Game UI.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler/Assets/Prefabs/Game UI.prefab.meta
+    fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
+      crawler/Assets/Prefabs/Game UI.prefab.meta
+    projectPath: Assets/Prefabs/Game UI.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler/Assets/Scenes/FirstScene.unity
+    fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
+      crawler/Assets/Scenes/FirstScene.unity
+    projectPath: Assets/Scenes/FirstScene.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -30,6 +44,13 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: labyrinth crawler/Library/CrashedAssetImports.txt
+    fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
+      crawler/Library/CrashedAssetImports.txt
+    projectPath: Library/CrashedAssetImports.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: labyrinth crawler/Library/EditorInstance.json
     fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
       crawler/Library/EditorInstance.json
@@ -65,20 +86,41 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: labyrinth crawler/Library/metadata/d1/d139326eb3fc9e64db85499c51d95f29
+  - path: labyrinth crawler/Library/metadata/08/08de79a6b5470422f8e7eb12e5cbed43
     fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
-      crawler/Library/metadata/d1/d139326eb3fc9e64db85499c51d95f29
-    projectPath: Library/metadata/d1/d139326eb3fc9e64db85499c51d95f29
+      crawler/Library/metadata/08/08de79a6b5470422f8e7eb12e5cbed43
+    projectPath: Library/metadata/08/08de79a6b5470422f8e7eb12e5cbed43
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler/Library/metadata/08/08de79a6b5470422f8e7eb12e5cbed43.info
+    fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
+      crawler/Library/metadata/08/08de79a6b5470422f8e7eb12e5cbed43.info
+    projectPath: Library/metadata/08/08de79a6b5470422f8e7eb12e5cbed43.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler/Library/StateCache/Hierarchy/a81e34-08de79a6b5470422f8.json
+    fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
+      crawler/Library/StateCache/Hierarchy/a81e34-08de79a6b5470422f8.json
+    projectPath: Library/StateCache/Hierarchy/a81e34-08de79a6b5470422f8.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: labyrinth crawler/Library/StateCache/Hierarchy/a81e34-7d0b8728c7cdf4e4aa.json
+    fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
+      crawler/Library/StateCache/Hierarchy/a81e34-7d0b8728c7cdf4e4aa.json
+    projectPath: Library/StateCache/Hierarchy/a81e34-7d0b8728c7cdf4e4aa.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: labyrinth crawler/Library/StateCache/Hierarchy/a81e34-d139326eb3fc9e64db.json
     fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
       crawler/Library/StateCache/Hierarchy/a81e34-d139326eb3fc9e64db.json
     projectPath: Library/StateCache/Hierarchy/a81e34-d139326eb3fc9e64db.json
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: labyrinth crawler/Library/StateCache/Hierarchy/a81e34-mainStage.json
     fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
       crawler/Library/StateCache/Hierarchy/a81e34-mainStage.json
@@ -86,20 +128,20 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: labyrinth crawler/Library/StateCache/SceneView/c30c1b-d139326eb3fc9e64db.json
+  - path: labyrinth crawler/Library/StateCache/SceneView/c30c1b-08de79a6b5470422f8.json
     fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
-      crawler/Library/StateCache/SceneView/c30c1b-d139326eb3fc9e64db.json
-    projectPath: Library/StateCache/SceneView/c30c1b-d139326eb3fc9e64db.json
+      crawler/Library/StateCache/SceneView/c30c1b-08de79a6b5470422f8.json
+    projectPath: Library/StateCache/SceneView/c30c1b-08de79a6b5470422f8.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler/Library/StateCache/SceneView/c30c1b-mainStage.json
+  - path: labyrinth crawler/Library/StateCache/SceneView/c30c1b-7d0b8728c7cdf4e4aa.json
     fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
-      crawler/Library/StateCache/SceneView/c30c1b-mainStage.json
-    projectPath: Library/StateCache/SceneView/c30c1b-mainStage.json
+      crawler/Library/StateCache/SceneView/c30c1b-7d0b8728c7cdf4e4aa.json
+    projectPath: Library/StateCache/SceneView/c30c1b-7d0b8728c7cdf4e4aa.json
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
   - path: labyrinth crawler/Temp/__Backupscenes/0.backup
     fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
       crawler/Temp/__Backupscenes/0.backup
