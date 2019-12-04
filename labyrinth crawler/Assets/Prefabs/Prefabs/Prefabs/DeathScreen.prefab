@@ -190,7 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I'm a piece of shit and I want to retry
+  m_Text: Retry level
 --- !u!1 &6369194542542331908
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,7 +396,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: U ded
+  m_Text: Game Over
 --- !u!1 &6369194542713963862
 GameObject:
   m_ObjectHideFlags: 0

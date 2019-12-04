@@ -30,9 +30,11 @@ public class Goblin : MonoBehaviour
         if(reverseWalking){
             if(!walkingDirection && currentDirection)
             {
+                transform.localScale = new Vector2(1f, 1f);
                 transform.Translate(Vector2.left * speed * Time.deltaTime);
             } else if(!walkingDirection && !currentDirection)
             {
+                transform.localScale = new Vector2(-1f, 1f);
                 transform.Translate(Vector2.right * speed * Time.deltaTime);
             }
             else if (walkingDirection && currentDirection)
@@ -55,12 +57,13 @@ public class Goblin : MonoBehaviour
                 currentDirection = true;
             }
         } else {
-
             if(!walkingDirection && currentDirection)
             {
+                transform.localScale = new Vector2(1f, 1f);
                 transform.Translate(Vector2.right * speed * Time.deltaTime);
             } else if(!walkingDirection && !currentDirection)
             {
+                transform.localScale = new Vector2(-1f, 1f);
                 transform.Translate(Vector2.left * speed * Time.deltaTime);
             }
             else if (walkingDirection && currentDirection)

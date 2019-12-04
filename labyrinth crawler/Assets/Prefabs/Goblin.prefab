@@ -163,6 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fe2acebd61db244f9db888ca1d7bd94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkingDistance: 5
+  walkingDistance: 3
   speed: 3
   walkingDirection: 0
+  reverseWalking: 0
