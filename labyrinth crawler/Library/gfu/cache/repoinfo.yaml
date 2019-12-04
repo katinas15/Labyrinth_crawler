@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-12-04T01:20:35.360+02:00
-  initializedAtString: 2019-12-04T01:20:35.360+02:00
+  lastUpdatedAtString: 2019-12-04T09:29:13.292+02:00
+  initializedAtString: 2019-12-04T09:29:13.292+02:00
   currentGitRemote:
     name: origin
     url: https://github.com/katinas15/Labyrinth_crawler.git

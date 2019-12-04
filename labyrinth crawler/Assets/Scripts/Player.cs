@@ -35,6 +35,8 @@ public class Player : MonoBehaviour
     BoxCollider2D boxCollider;
     Animator animator;
 
+    int lastKeypress = 0;
+
     
     void Start()
     {
@@ -97,11 +99,13 @@ public class Player : MonoBehaviour
 
         if (deltaY > 0f)
         {
+            lastKeypress = 4;
             animator.SetBool("NormalWalk", false);
             animator.SetBool("BackWalk", true);
         }
         else if (deltaY < 0f)
         {
+            lastKeypress = 2;
             animator.SetBool("NormalWalk", true);
             animator.SetBool("BackWalk", false);
         } else if (deltaX != 0)
@@ -116,10 +120,12 @@ public class Player : MonoBehaviour
 
         if (deltaX < 0f)
         {
+            lastKeypress = 3;
             transform.localScale = new Vector2(-1f, 1f);
         }
-        else
+        else if(deltaX > 0f)
         {
+            lastKeypress = 1;
             transform.localScale = new Vector2(1f, 1f);
         }
 
@@ -155,30 +161,10 @@ public class Player : MonoBehaviour
     {
         if(fireScrolls > 0)
         {
-            var deltaY = CrossPlatformInputManager.GetAxisRaw("Vertical") * Time.deltaTime * movementSpeed;
             Fire newFire = Instantiate(fire, new Vector2(transform.position.x, transform.position.y), transform.rotation);
 
-            var deltaX = CrossPlatformInputManager.GetAxisRaw("Horizontal") * Time.deltaTime * movementSpeed;
-            if (deltaX > 0f)
-            {
-                newFire.GetComponent<Fire>().SetDirection(1);
-            }
-            else if (deltaX < 0f)
-            {
-                newFire.GetComponent<Fire>().SetDirection(3);
-            }
-            else if (deltaY > 0f)
-            {
-                newFire.GetComponent<Fire>().SetDirection(4);
-            }
-            else if (deltaY < 0f)
-            {
-                newFire.GetComponent<Fire>().SetDirection(2);
-            }
-            else
-            {
-                newFire.GetComponent<Fire>().SetDirection(1);
-            }
+            newFire.GetComponent<Fire>().SetDirection(lastKeypress);
+            
 
             fireScrolls--;
             UpdateUI();

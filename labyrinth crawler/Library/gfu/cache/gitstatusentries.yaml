@@ -13,9 +13,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-12-04T09:26:25.167+02:00
-  initializedAtString: 2019-12-04T01:20:35.369+02:00
+  lastUpdatedAtString: 2019-12-04T09:52:10.774+02:00
+  initializedAtString: 2019-12-04T09:29:13.301+02:00
   entries:
+  - path: labyrinth crawler/Assets/Prefabs/Player.prefab
+    fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
+      crawler/Assets/Prefabs/Player.prefab
+    projectPath: Assets/Prefabs/Player.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: labyrinth crawler/Assets/Prefabs/Prefabs/Prefabs/Grid.prefab
     fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
       crawler/Assets/Prefabs/Prefabs/Prefabs/Grid.prefab
@@ -23,17 +30,17 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: labyrinth crawler/Assets/Scenes/FirstScene.unity
+    fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
+      crawler/Assets/Scenes/FirstScene.unity
+    projectPath: Assets/Scenes/FirstScene.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: labyrinth crawler/Assets/Scripts/Player.cs
     fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
       crawler/Assets/Scripts/Player.cs
     projectPath: Assets/Scripts/Player.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: labyrinth crawler/Assets/Sprites/New Sprite Atlas.spriteatlas
-    fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
-      crawler/Assets/Sprites/New Sprite Atlas.spriteatlas
-    projectPath: Assets/Sprites/New Sprite Atlas.spriteatlas
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -86,6 +93,13 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: labyrinth crawler/Library/metadata/19/190e2d6d2eb7c4545a31067e3a0c545d
+    fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
+      crawler/Library/metadata/19/190e2d6d2eb7c4545a31067e3a0c545d
+    projectPath: Library/metadata/19/190e2d6d2eb7c4545a31067e3a0c545d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: labyrinth crawler/Library/metadata/48/48d4ad0c6618ad24aa683c2b6941fbbb
     fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
       crawler/Library/metadata/48/48d4ad0c6618ad24aa683c2b6941fbbb
@@ -128,27 +142,13 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: labyrinth crawler/Library/ScriptAssemblies/BuiltinAssemblies.stamp
-    fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
-      crawler/Library/ScriptAssemblies/BuiltinAssemblies.stamp
-    projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: labyrinth crawler/Library/shadercompiler-UnityShaderCompiler0.log
-    fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
-      crawler/Library/shadercompiler-UnityShaderCompiler0.log
-    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: labyrinth crawler/Library/StateCache/Hierarchy/a81e34-48d4ad0c6618ad24aa.json
     fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
       crawler/Library/StateCache/Hierarchy/a81e34-48d4ad0c6618ad24aa.json
     projectPath: Library/StateCache/Hierarchy/a81e34-48d4ad0c6618ad24aa.json
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: labyrinth crawler/Library/StateCache/Hierarchy/a81e34-mainStage.json
     fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
       crawler/Library/StateCache/Hierarchy/a81e34-mainStage.json
@@ -161,8 +161,8 @@ MonoBehaviour:
       crawler/Library/StateCache/SceneView/c30c1b-48d4ad0c6618ad24aa.json
     projectPath: Library/StateCache/SceneView/c30c1b-48d4ad0c6618ad24aa.json
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: labyrinth crawler/Library/StateCache/SceneView/c30c1b-mainStage.json
     fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
       crawler/Library/StateCache/SceneView/c30c1b-mainStage.json
@@ -184,94 +184,45 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler/Temp/UnityTempFile-160fdb2824594429f83027bdfc9dc43c
+  - path: labyrinth crawler/Temp/UnityTempFile-0a24d01ed55e04a3d85e344b89ee6399
     fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
-      crawler/Temp/UnityTempFile-160fdb2824594429f83027bdfc9dc43c
-    projectPath: Temp/UnityTempFile-160fdb2824594429f83027bdfc9dc43c
+      crawler/Temp/UnityTempFile-0a24d01ed55e04a3d85e344b89ee6399
+    projectPath: Temp/UnityTempFile-0a24d01ed55e04a3d85e344b89ee6399
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler/Temp/UnityTempFile-2ed67b78ba5404e02924d99344a35f38
+  - path: labyrinth crawler/Temp/UnityTempFile-17d8bc90332484d06822e21f571da28e
     fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
-      crawler/Temp/UnityTempFile-2ed67b78ba5404e02924d99344a35f38
-    projectPath: Temp/UnityTempFile-2ed67b78ba5404e02924d99344a35f38
+      crawler/Temp/UnityTempFile-17d8bc90332484d06822e21f571da28e
+    projectPath: Temp/UnityTempFile-17d8bc90332484d06822e21f571da28e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler/Temp/UnityTempFile-31d344c2a73be472ea97b67339a80ce6
+  - path: labyrinth crawler/Temp/UnityTempFile-3c0bb2c9597b346e38ac093336a4ec9b
     fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
-      crawler/Temp/UnityTempFile-31d344c2a73be472ea97b67339a80ce6
-    projectPath: Temp/UnityTempFile-31d344c2a73be472ea97b67339a80ce6
+      crawler/Temp/UnityTempFile-3c0bb2c9597b346e38ac093336a4ec9b
+    projectPath: Temp/UnityTempFile-3c0bb2c9597b346e38ac093336a4ec9b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler/Temp/UnityTempFile-461c71ec1c5854fb9915d745af9c199d
+  - path: labyrinth crawler/Temp/UnityTempFile-6efa2489e03834de28c41986c91ab585
     fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
-      crawler/Temp/UnityTempFile-461c71ec1c5854fb9915d745af9c199d
-    projectPath: Temp/UnityTempFile-461c71ec1c5854fb9915d745af9c199d
+      crawler/Temp/UnityTempFile-6efa2489e03834de28c41986c91ab585
+    projectPath: Temp/UnityTempFile-6efa2489e03834de28c41986c91ab585
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler/Temp/UnityTempFile-6259997f0ec674bc28fbcec929eafc7f
+  - path: labyrinth crawler/Temp/UnityTempFile-fbbf9e7accd7c4c08afc17586289b87b
     fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
-      crawler/Temp/UnityTempFile-6259997f0ec674bc28fbcec929eafc7f
-    projectPath: Temp/UnityTempFile-6259997f0ec674bc28fbcec929eafc7f
+      crawler/Temp/UnityTempFile-fbbf9e7accd7c4c08afc17586289b87b
+    projectPath: Temp/UnityTempFile-fbbf9e7accd7c4c08afc17586289b87b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: labyrinth crawler/Temp/UnityTempFile-68904277deaa24ed7a251e6f4b3fe3d9
+  - path: labyrinth crawler/Temp/UnityTempFile-fdd34daff831642aaa2aa5fb66d2f91d
     fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
-      crawler/Temp/UnityTempFile-68904277deaa24ed7a251e6f4b3fe3d9
-    projectPath: Temp/UnityTempFile-68904277deaa24ed7a251e6f4b3fe3d9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler/Temp/UnityTempFile-96b558edf48f04ed2a599de44548cc28
-    fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
-      crawler/Temp/UnityTempFile-96b558edf48f04ed2a599de44548cc28
-    projectPath: Temp/UnityTempFile-96b558edf48f04ed2a599de44548cc28
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler/Temp/UnityTempFile-b118e14d4bafe4b45a8d2458dbc9e32f
-    fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
-      crawler/Temp/UnityTempFile-b118e14d4bafe4b45a8d2458dbc9e32f
-    projectPath: Temp/UnityTempFile-b118e14d4bafe4b45a8d2458dbc9e32f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler/Temp/UnityTempFile-b53c96c1c053c4d609d64aceefd90be0
-    fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
-      crawler/Temp/UnityTempFile-b53c96c1c053c4d609d64aceefd90be0
-    projectPath: Temp/UnityTempFile-b53c96c1c053c4d609d64aceefd90be0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler/Temp/UnityTempFile-b926c4a6c30cb4795b4a3aeb180a4c9e
-    fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
-      crawler/Temp/UnityTempFile-b926c4a6c30cb4795b4a3aeb180a4c9e
-    projectPath: Temp/UnityTempFile-b926c4a6c30cb4795b4a3aeb180a4c9e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler/Temp/UnityTempFile-bf9501c6806dd497db3414b37daa4d35
-    fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
-      crawler/Temp/UnityTempFile-bf9501c6806dd497db3414b37daa4d35
-    projectPath: Temp/UnityTempFile-bf9501c6806dd497db3414b37daa4d35
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler/Temp/UnityTempFile-c8321d4c089ca4546a42ff06ac983937
-    fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
-      crawler/Temp/UnityTempFile-c8321d4c089ca4546a42ff06ac983937
-    projectPath: Temp/UnityTempFile-c8321d4c089ca4546a42ff06ac983937
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: labyrinth crawler/Temp/UnityTempFile-e4e54aeb90f5f49a5a8b5b56fc2b2c60
-    fullPath: /Users/katinas/Documents/GitHub/inovtechna/Labyrinth_crawler/labyrinth
-      crawler/Temp/UnityTempFile-e4e54aeb90f5f49a5a8b5b56fc2b2c60
-    projectPath: Temp/UnityTempFile-e4e54aeb90f5f49a5a8b5b56fc2b2c60
+      crawler/Temp/UnityTempFile-fdd34daff831642aaa2aa5fb66d2f91d
+    projectPath: Temp/UnityTempFile-fdd34daff831642aaa2aa5fb66d2f91d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
