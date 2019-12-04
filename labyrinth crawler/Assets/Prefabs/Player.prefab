@@ -301,12 +301,13 @@ MonoBehaviour:
   scrollText: {fileID: 0}
   coinText: {fileID: 0}
   tilemap: {fileID: 0}
-  fire: {fileID: 3102760435008439612, guid: d0823f05ac4ba42409d88ebdd0b09185, type: 3}
+  fire: {fileID: 3102760435008439612, guid: c70734d5fbc944641916d3ebb3888427, type: 3}
   fireDelta: 0.5
   bombDelta: 0.5
   deathPush: 20
   gameScreen: {fileID: 0}
   deathScreen: {fileID: 0}
+  pauseMenu: {fileID: 0}
   bombSfx: {fileID: 8300000, guid: 339ee97ef84644907bf469068c706c9d, type: 3}
   fireSfx: {fileID: 8300000, guid: 8d3bb3b2905144f93aea49bf6958331e, type: 3}
   deathSfx: {fileID: 8300000, guid: a6080bb8c40a54346b227dfe2cb44b60, type: 3}

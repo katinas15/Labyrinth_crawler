@@ -67,12 +67,15 @@ public class Player : MonoBehaviour
     private void Pause(){
         if (CrossPlatformInputManager.GetButton("Cancel") && myTime > nextPress)
         {
-            if(pauseMenu.activeSelf){
+            if(!pauseMenu.activeSelf){
+                
+                #if UNITY_STANDALONE
                 stop = true;
-                pauseMenu.SetActive(false);
+                #endif
+                pauseMenu.SetActive(true);
             } else {
                 stop = false;
-                pauseMenu.SetActive(true);
+                pauseMenu.SetActive(false);
             }
 
             nextPress = myTime + 1f;
