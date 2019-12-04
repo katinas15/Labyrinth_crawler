@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2399070600641349352
+--- !u!1 &6057870370415047433
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,12 +8,12 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 877982752931674184}
-  - component: {fileID: 282242519074341952}
-  - component: {fileID: 1508585648908669770}
-  - component: {fileID: -5720202504145473240}
-  - component: {fileID: -479982137322309293}
-  - component: {fileID: 106067699}
+  - component: {fileID: 8752164959570693545}
+  - component: {fileID: 8552455620686279073}
+  - component: {fileID: 7040610172699961003}
+  - component: {fileID: 5028010739330680009}
+  - component: {fileID: 868092792413523122}
+  - component: {fileID: 8456307652252533522}
   m_Layer: 14
   m_Name: Goblin
   m_TagString: Untagged
@@ -21,27 +21,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &877982752931674184
+--- !u!4 &8752164959570693545
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2399070600641349352}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.49, y: 5.51, z: 0}
+  m_GameObject: {fileID: 6057870370415047433}
+  m_LocalRotation: {x: -0, y: -0, z: -0.9381458, w: -0.34624046}
+  m_LocalPosition: {x: -17.003763, y: -22.576624, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &282242519074341952
+--- !u!212 &8552455620686279073
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2399070600641349352}
+  m_GameObject: {fileID: 6057870370415047433}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -85,14 +85,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &1508585648908669770
+--- !u!95 &7040610172699961003
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2399070600641349352}
+  m_GameObject: {fileID: 6057870370415047433}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 18c679154ee247648b213401e96648a8, type: 2}
@@ -104,13 +104,13 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!61 &-5720202504145473240
+--- !u!61 &5028010739330680009
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2399070600641349352}
+  m_GameObject: {fileID: 6057870370415047433}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -130,14 +130,14 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.44, y: 0.56}
   m_EdgeRadius: 0
---- !u!50 &-479982137322309293
+--- !u!50 &868092792413523122
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2399070600641349352}
+  m_GameObject: {fileID: 6057870370415047433}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -151,19 +151,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &106067699
+--- !u!114 &8456307652252533522
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2399070600641349352}
+  m_GameObject: {fileID: 6057870370415047433}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3fe2acebd61db244f9db888ca1d7bd94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkingDistance: 3
+  walkingDistance: 6
   speed: 3
   walkingDirection: 0
   reverseWalking: 0
