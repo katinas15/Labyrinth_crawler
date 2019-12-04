@@ -189,13 +189,18 @@ public class Player : MonoBehaviour
     {
         if (bombs > 0)
         {
+            int playerX = (int)transform.position.x;
+            int playerY = (int)transform.position.y;
+
+            if(playerX < 0) playerX -= 1;
+            if(playerY < 0) playerY -= 1;
+
             for (int i = -1; i <= 1; i++)
             {
                 for (int j = -1; j <= 1; j++)
                 {
-                    int playerX = (int)transform.position.x;
-                    int playerY = (int)transform.position.y;
-                    tilemap.SetTile(new Vector3Int(playerX + j, playerY + i, 0), null);
+                    var tilePos = new Vector3Int(playerX + j, playerY + i, 0);
+                    tilemap.SetTile(tilePos, null);
                 }
             }
             bombs--;
