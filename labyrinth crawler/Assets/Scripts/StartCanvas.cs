@@ -11,4 +11,9 @@ public class StartCanvas : MonoBehaviour
         var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
+
+    public void ResetProgress(){
+        PlayerPrefsController.ResetLevelProgress();
+        SceneManager.LoadScene("Main Menu");
+    }
 }
