@@ -12,6 +12,7 @@ public class LevelExit : MonoBehaviour
     {
         AudioSource.PlayClipAtPoint(winSfx, Camera.main.transform.position);
         canvas.SetActive(true);
+        FindObjectOfType<Player>().StopPlayer();
 
         var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         PlayerPrefsController.SetLevelProgress(currentSceneIndex+1);

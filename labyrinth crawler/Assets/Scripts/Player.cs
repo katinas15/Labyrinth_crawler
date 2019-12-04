@@ -21,14 +21,16 @@ public class Player : MonoBehaviour
 
     [SerializeField] GameObject gameScreen;
     [SerializeField] GameObject deathScreen;
+    [SerializeField] GameObject pauseMenu;
     [SerializeField] AudioClip bombSfx;    
     [SerializeField] AudioClip fireSfx;
     [SerializeField] AudioClip deathSfx;
     float nextFire = 0.5f;
     float nextBomb = 0.5f;
+    float nextPress = 0.5f;
 
     float myTime = 0.0f;
-
+    bool stop = false;
     int bombs = 0;
     int fireScrolls = 0;
     int coins = 0;
@@ -52,10 +54,31 @@ public class Player : MonoBehaviour
     void FixedUpdate()
     {
         myTime = myTime + Time.deltaTime;
-        Move();
-        Fire();
-        Bomb();
-        Enemy();
+        if(!stop){
+            Move();
+            Fire();
+            Bomb();
+            Enemy();
+        }
+        Pause();
+        
+    }
+
+    private void Pause(){
+        if (CrossPlatformInputManager.GetButton("Cancel") && myTime > nextPress)
+        {
+            if(pauseMenu.activeSelf){
+                stop = true;
+                pauseMenu.SetActive(false);
+            } else {
+                stop = false;
+                pauseMenu.SetActive(true);
+            }
+
+            nextPress = myTime + 1f;
+            nextPress = nextPress - myTime;
+            myTime = 0.0F;
+        }
     }
 
     private void Enemy()
@@ -181,8 +204,8 @@ public class Player : MonoBehaviour
             int playerX = (int)transform.position.x;
             int playerY = (int)transform.position.y;
 
-            if(playerX < 0) playerX -= 1;
-            if(playerY < 0) playerY -= 1;
+            if(0 > transform.position.x) playerX -= 1;
+            if(0 > transform.position.y) playerY -= 1;
 
             for (int i = -1; i <= 1; i++)
             {
@@ -209,5 +232,9 @@ public class Player : MonoBehaviour
             coins -= price;
             return true;
         }
+    }
+
+    public void StopPlayer(){
+        stop = true;
     }
 }

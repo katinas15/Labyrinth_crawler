@@ -225,8 +225,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -60, y: -45}
-  m_SizeDelta: {x: 274.3, y: 61.200012}
+  m_AnchoredPosition: {x: -60, y: -39.1}
+  m_SizeDelta: {x: 274.3, y: 69.08}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3594497758011778712
 CanvasRenderer:
@@ -269,7 +269,9 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'E - Use Fire Scroll
 
-    F - Use Bomb'
+    F - Use Bomb
+
+    ESC - Pause'
 --- !u!1 &3594497758366262716
 GameObject:
   m_ObjectHideFlags: 0

@@ -24,4 +24,6 @@ public class DeathScreen : MonoBehaviour
     {
         SceneManager.LoadScene("Main Menu");
     }
+
+
 }
