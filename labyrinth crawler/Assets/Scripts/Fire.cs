@@ -5,6 +5,7 @@ using UnityEngine;
 public class Fire : MonoBehaviour
 {
     [SerializeField] float speed = 4f;
+    float deleteTime = 5f;
     int direction;
     BoxCollider2D boxCollider;
     public void SetDirection(int direction)
@@ -20,6 +21,11 @@ public class Fire : MonoBehaviour
     void Update()
     {
         if (boxCollider.IsTouchingLayers(LayerMask.GetMask("Foreground")))
+        {
+            Destroy(gameObject);
+        }
+
+        if (boxCollider.IsTouchingLayers(LayerMask.GetMask("Enemy")))
         {
             Destroy(gameObject);
         }
@@ -41,4 +47,5 @@ public class Fire : MonoBehaviour
             transform.Translate(Vector2.up * speed * Time.deltaTime);
         }
     }
+
 }

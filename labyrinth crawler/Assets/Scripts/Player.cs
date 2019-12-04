@@ -21,7 +21,9 @@ public class Player : MonoBehaviour
 
     [SerializeField] GameObject gameScreen;
     [SerializeField] GameObject deathScreen;
-
+    [SerializeField] AudioClip bombSfx;    
+    [SerializeField] AudioClip fireSfx;
+    [SerializeField] AudioClip deathSfx;
     float nextFire = 0.5f;
     float nextBomb = 0.5f;
 
@@ -64,6 +66,7 @@ public class Player : MonoBehaviour
             deathScreen.SetActive(true);
             rigidBody.velocity = new Vector2(deathPush, deathPush);
             gameScreen.SetActive(false);
+            AudioSource.PlayClipAtPoint(deathSfx, Camera.main.transform.position);
             
         }
     }
@@ -164,7 +167,7 @@ public class Player : MonoBehaviour
             Fire newFire = Instantiate(fire, new Vector2(transform.position.x, transform.position.y), transform.rotation);
 
             newFire.GetComponent<Fire>().SetDirection(lastKeypress);
-            
+            AudioSource.PlayClipAtPoint(fireSfx, Camera.main.transform.position);
 
             fireScrolls--;
             UpdateUI();
@@ -189,6 +192,7 @@ public class Player : MonoBehaviour
                     tilemap.SetTile(tilePos, null);
                 }
             }
+            AudioSource.PlayClipAtPoint(bombSfx, Camera.main.transform.position);
             bombs--;
             UpdateUI();
         }
